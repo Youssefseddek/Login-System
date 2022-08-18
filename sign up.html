@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="sign up.css">
+    </head>
+
+
+    <body>
+        
+        <div class="container py-5">
+
+            <div class="p-3  d-flex justify-content-center ">
+
+                <div   class="group text-center   w-75  py-5 ">
+
+                    <h2 >Smart Login System</h2>
+
+                    <input type="text" name="Name" id="Name" class="form-control my-3 w-75 m-auto text-black " placeholder="Enter your name">
+
+
+                    <div class="my-3 w-75 m-auto text-black">
+
+                        <input type="email" name="Email" id="Email" class="form-control text-black" onblur="validEmail()"   placeholder="Enter your email">
+                    
+                        <p  class="alert alert-danger   " id="alertname">please etner valid Email</p>
+                  
+                    </div>
+                    
+
+                    <input type="password" name="password" id="password" class="form-control w-75 m-auto text-black" placeholder="Enter your password">
+
+                    <p id="massege" class=" mt-3 mb-2">Success</p>
+
+                    <p id="exists" class="mt-3 mb-2">email already exists</p>
+                    <p id="required"  class=" mt-3 mb-2">All inputs is required</p> 
+
+                    <button class="btn btn-outline-primary w-75 my-4" onclick="signUp()">Sign Up</button>
+
+                    <p>You have an account? <a href="login.html">Signin</a> </p>
+                    
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+
+
+
+        <script src="sign up.js"></script>
+    </body>
+
+</html>

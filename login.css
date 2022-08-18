@@ -1,0 +1,92 @@
+
+body{
+
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+.group {
+
+    box-shadow: -5px 2px 30px 0px rgb(0 0 0);
+}
+
+.group h2 {
+    color: #17a2b8;
+}
+
+
+.btn-outline-primary{
+
+    color: #17a2b8;
+    border-color: #17a2b8;
+
+}
+
+.group a , p{
+    color: white;
+}
+
+.group input{
+    background: #24353f;
+}
+
+
+#incorrect{
+
+
+    display: none;
+    color: red;
+
+
+}
+
+#required{
+
+    display: none;
+    color: red;
+
+}
+
+
+
+
+
+
+
+/* home */
+
+
+.home {
+
+    display: none;
+
+
+}
+
+
+.nav {
+
+
+    box-shadow: -5px 2px 30px 0px rgb(0 0 0);
+
+}
+
+
+.nav h3{
+
+
+    font-size: 1.25rem;
+
+}
+
+
+
+
+
+
+.contant {
+
+    box-shadow: -5px 2px 30px 0px rgb(0 0 0);
+}
